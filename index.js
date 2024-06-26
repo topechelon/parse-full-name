@@ -152,14 +152,14 @@ exports.parseFullName = function parseFullName(
       'vice admiral','viscount','viscountess','wg cdr', 'ind', 'misc', 'mx'];
   } else {
     suffixList = ['esq','esquire','jr','jnr','sr','snr','2','ii','iii','iv',
-      'md','phd','j.d.','ll.m.','m.d.','d.o.','d.c.','p.c.','ph.d.'];
+      'md','phd','j.d.','ll.m.','m.d.','d.o.','d.c.','p.c.','ph.d.', 'dnp',
+      'msn', 'aprn', 'agnp-c', 'ocn', 'msn', 'rn', 'bsn', 'pharmd', 'mhs', 'mpa'];
     prefixList = ['ab','bar','bin','da','dal','de','de la','del','della','der',
       'di','du','ibn','l\'','la','le','san','st','st.','ste','ter','van',
       'van de','van der','van den','vel','ver','vere','von'];
     titleList = ['dr','miss','mr','mrs','ms','prof','sir','frau','herr','hr',
       'monsieur','captain','doctor','judge','officer','professor', 'ind', 'misc',
-      'mx', 'dnp', 'msn', 'aprn', 'agnp-c', 'ocn', 'msn', 'rn', 'bsn', 'pharmd',
-      'mhs', 'mpa'];
+      'mx'];
   }
 
   // Nickname: remove and store parts with surrounding punctuation as nicknames
